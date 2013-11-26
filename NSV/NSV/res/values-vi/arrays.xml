@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages">
+        <item>Tiếng Anh</item>
+        <item>Tiếng Việt</item>
+    </string-array>
+    <string-array name="agent_type">
+        <item>Nhà phân phối</item>
+        <item>Cửa hàng bán lẻ</item>
+    </string-array>
+</resources>

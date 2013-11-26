@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="products">Products</string>
+    <string name="news">News</string>
+    <string name="search">Search</string>
+    <string name="more">More</string>
+    <string name="info">Info</string>
+    <string name="quycach">Mode: </string>
+    <string name="loaihang">Type: </string>
+    <string name="tieuchuan">Standard: </string>
+    <string name="duongkinh">Diameter (mm): </string>
+    <string name="gioihanchay">Melting (N/mm2): </string>
+    <string name="gioihandut">Broken (N/mm2): </string>
+    <string name="dogiandai">Elasticity (%): </string>
+    <string name="thuuonnguoi">Bend: </string>
+    <string name="soluongthanh">The number of bars in the bundle: </string>
+    <string name="trongluong">Average weight: </string>
+    <string name="sailech">Deviation allowed: </string>
+    <string name="app_name">NSV</string>
+    <string name="company">NatSteelVina</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_activity_splash">Activity_splash</string>
+    <string name="title_activity_activity_info">Activity_info</string>
+    <string name="title_activity_activity_production">Activity_production</string>
+    <string name="title_activity_activity_detailproduct">Activity_detailproduct</string>
+    <string name="title_activity_activity_news">Activity_news</string>
+    <string name="title_activity_activity_agent">Activity_agent</string>
+    <string name="title_activity_activity_contact">Activity_contact</string>
+    <string name="title_activity_activity_setting">Activity_setting</string>
+    <string name="title_activity_activity_mainsearch">Activity_mainsearch</string>
+    <string name="title_activity_activity_searchagent">Activity_searchagent</string>
+    <string name="title_activity_activity_detailnews">Activity_detailnews</string>
+    <string name="title_activity_activity_addlist">Activity_addlist</string>
+    <string name="title_activity_activity_searchcontracter">Activity_searchcontracter</string>
+    <string name="title_activity_activity_searchedcontractor">Activity_searchedcontractor</string>
+    <string name="title_activity_activity_searchedagent">Activity_searchedagent</string>
+    <string name="splash_bottom">Thép Việt-Sing</string>
+    <string name="company_info">Company Info</string>
+    <string name="loading">loading&#8230;</string>
+    <string name="sending">sending&#8230;</string>
+    <string name="searching_agent">searching agents&#8230;</string>
+    <string name="searching_contractor">searching contractors&#8230;</string>
+    <string name="agents">Agents</string>
+    <string name="contact">Contact Us</string>
+    <string name="contractors">Contractors</string>
+    <string name="errorjson">Load data error</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="send_mail">Send Mail</string>
+    <string name="field_required">This field is required</string>
+    <string name="select">- Select -</string>
+    <string name="more_info">More Info</string>
+    <string name="media">Media</string>
+    <string name="other">Others</string>
+    <string name="org_chart">Organization Chart</string>
+    <string name="dev_history">Development History</string>
+    <string name="photo_album">Photo Album</string>
+    <string name="videos">Videos</string>
+    <string name="survey">Surveys</string>
+    <string name="relax">Relax</string>
+    <string name="music">Music</string>
+    <string name="game">Game</string>
+    <string name="news_feed">RSS Feed</string>
+    <string name="connect_yahoo">Connect us with Yahoo</string>
+    <string name="like_facebook">Like Facebook fanpage</string>
+    <string name="more_app">More Apps</string>
+    <string name="close">Close</string>
+    <string name="language">Language</string>
+    <string name="no_items_found">No items found</string>
+    <string name="check_internet">Please enable internet connection to load data</string>
+    <string name="install_yahoo_notice">Please install Yahoo Messenger to send IM</string>
+    <string name="distributors">Distributors</string>
+    <string name="retailers">Retailers</string>
+    <string name="notification">Notification</string>
+    <string name="maps">Maps</string>
+    <string name="slogan">Strength and Sustainability</string>
+    <string name="company_name">NatSteelVina Co., Ltd.</string>
+    <string name="company_address">Gang Thep Industrial Zone. Cam Gia Ward. Thai Nguyen City. Thai Nguyen Province.</string>
+    <string name="company_phone">Phone: 0280.3832.258/0280.3833.522.</string>
+    <string name="company_fax">Fax: 0280.3832.292/0280.3833522.</string>
+    <string name="company_office">Representative office: Floor 14, Lilama 10 Building, Le Van Luong Street, Tu Liem, Ha Noi.</string>
+    <string name="company_phone2">Tel: 04. 35430872</string>
+    <string name="company_fax2">Fax: 04. 35430873</string>
+
+    <!-- hung -->
+    <string name="order2">Order</string>
+    <string name="customer">Customer information</string>
+    <string name="add_to_order">Add to order</string>
+    <string name="full_name">Full name<font fgcolor="#ffff0000">*</font></string>
+    <string name="sex">Sex</string>
+    <string name="address">Address<font fgcolor="#ffff0000">*</font></string>
+    <string name="province">Province<font fgcolor="#ffff0000">*</font></string>
+    <string name="tell">Tell/mobile<font fgcolor="#ffff0000">*</font></string>
+    <string name="email2">Email</string>
+    <string name="product">Product/size</string>
+    <string name="quantity">Quantity (Tons)</string>
+    <string name="receiver">Receiver information</string>
+    <string name="order">Order now</string>
+    <string name="product_info">Product order information</string>
+    <string name="dl_message">Message</string>
+    <string name="dl_btn_ok">Ok</string>
+    <string name="full_name_customer">Full name of customer is needed</string>
+    <string name="address_customer">Address of customer is needed</string>
+    <string name="province_customer">Province of customer is needed</string>
+    <string name="tell_customer">Tell of customer is need</string>
+    <string name="full_name_receiver">Full name of receiver is needed</string>
+    <string name="address_receiver">Address of receiver is needed</string>
+    <string name="province_receiver">Province of receiver is needed</string>
+    <string name="tell_receiver">Tell of receiver is needed</string>
+    <string name="product_quantity">Product or quantity is needed</string>
+    <string name="sending_mail">Sending...</string>
+    <string name="re_success">Thank you! Your order has been sent to NatSteelVina’s Sales Department. We will contact you as soon as possible</string>
+    <string name="a_connect_internet">Please connect to working Internet connection</string>
+    <string name="send_fail">Send failed</string>
+    
+</resources>

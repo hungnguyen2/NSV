@@ -1,0 +1,184 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rel_top"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/top" >
+
+        <ImageView
+            android:id="@+id/button_back"
+            android:layout_width="45dp"
+            android:layout_height="28dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/button_back" />
+
+        <TextView
+            android:id="@+id/detapro_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/company_info"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/rel_top" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:paddingBottom="100dp" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/detailpro_image"
+                    android:layout_width="fill_parent"
+                    android:layout_height="180dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/nsv" />
+
+                <!-- layout chua ten va loai hang -->
+
+                <RelativeLayout
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="100dp"
+                    android:background="@drawable/bg_name_deital"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp" >
+
+                    <TextView
+                        android:id="@+id/detailpro_titleName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:gravity="right"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/datailpro_titleloai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/detailpro_titleName"
+                        android:gravity="right"
+                        android:paddingBottom="5dp"
+                        android:textColor="#ffffff" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/detapro_quycach"
+                style="@style/content_textview"
+                android:paddingTop="10dp"
+                android:text="quy cach" />
+
+            <TextView
+                android:id="@+id/detapro_loaihang"
+                style="@style/content_textview"
+                android:paddingTop="5dp"
+                android:text="Loai hang: " />
+
+            <TextView
+                android:id="@+id/detapro_tieuchuan"
+                style="@style/content_textview"
+                android:paddingTop="5dp"
+                android:text="Tieu chuan san pham: " />
+
+            <TextView
+                android:id="@+id/detapro_duongkinh"
+                style="@style/content_textview"
+                android:paddingTop="5dp"
+                android:text="Duong kinh: " />
+
+            <TextView
+                android:id="@+id/detapro_gioihanchay"
+                style="@style/content_textview"
+                android:paddingTop="5dp"
+                android:text="Gioi han chay: " />
+
+            <TextView
+                android:id="@+id/detapro_gioihandut"
+                style="@style/content_textview"
+                android:paddingTop="5dp"
+                android:text="Gioi han dut: " />
+
+            <TextView
+                android:id="@+id/detapro_dogianday"
+                style="@style/content_textview"
+                android:paddingTop="5dp" />
+
+            <TextView
+                android:id="@+id/detapro_thuuongnguoi"
+                style="@style/content_textview"
+                android:paddingTop="5dp"
+                android:text="Thu uon nguoi: " />
+
+            <TextView
+                android:id="@+id/tvSoLuongThanh"
+                style="@style/content_textview"
+                android:paddingTop="5dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/tvTrongLuong"
+                    style="@style/content_textview"
+                    android:layout_alignParentTop="true"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/tvSaiLech"
+                    style="@style/content_textview"
+                    android:layout_below="@+id/tvTrongLuong"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/add_to_order"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/add_to_order"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/add_to_order"
+                    android:textSize="17sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/incMenuInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        layout="@layout/cusmenu" />
+
+</RelativeLayout>

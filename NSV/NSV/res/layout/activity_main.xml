@@ -1,0 +1,206 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/main_background" />
+    <!-- start row 1 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linerCenter"
+        android:layout_marginBottom="20dp" >
+
+        <LinearLayout style="@style/linerLayoutRow" >
+
+            <ImageView
+                android:id="@+id/main_info"
+                style="@style/main_image"
+                android:layout_gravity="center"
+                android:background="@drawable/main_info" />
+
+            <TextView
+                style="@style/main_textview"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/info" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linerLayoutRow" >
+
+            <ImageView
+                android:id="@+id/main_product"
+                style="@style/main_image"
+                android:layout_gravity="center"
+                android:background="@drawable/main_produce" />
+
+            <TextView
+                style="@style/main_textview"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/products" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linerLayoutRow" >
+
+            <ImageView
+                android:id="@+id/main_news"
+                style="@style/main_image"
+                android:layout_gravity="center"
+                android:src="@drawable/news" />
+
+            <TextView
+                style="@style/main_textview"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/news" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- end  row 1 -->
+
+
+    <!-- start row 2 -->
+
+    <LinearLayout
+        android:id="@+id/linerCenter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/viewcenter"
+        android:layout_centerInParent="true" >
+
+        <LinearLayout style="@style/linerLayoutRow" >
+
+            <ImageView
+                android:id="@+id/main_agent"
+                style="@style/main_image"
+                android:layout_gravity="center"
+                android:background="@drawable/main_agent"
+                android:padding="10dp" />
+
+            <TextView
+                style="@style/main_textview"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/distributors" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linerLayoutRow" >
+
+            <ImageView
+                android:id="@+id/main_contractor"
+                style="@style/main_image"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/main_contractor"
+                android:padding="10dp" />
+
+            <TextView
+                style="@style/main_textview"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/retailers" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linerLayoutRow" >
+
+            <ImageView
+                android:id="@+id/main_search"
+                style="@style/main_image"
+                android:layout_gravity="center"
+                android:background="@drawable/main_search" />
+
+            <TextView
+                style="@style/main_textview"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/search" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- end  row 2 -->
+
+
+    <!-- start row 3 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linerCenter"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp" >
+
+        <LinearLayout style="@style/linerLayoutRow" >
+
+            <ImageView
+                android:id="@+id/main_contact"
+                style="@style/main_image"
+                android:layout_gravity="center"
+                android:background="@drawable/main_contact" />
+
+            <TextView
+                style="@style/main_textview"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/contact" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linerLayoutRow" >
+
+            <ImageView
+                android:id="@+id/main_setting"
+                style="@style/main_image"
+                android:layout_gravity="center"
+                android:background="@drawable/main_setting" />
+
+            <TextView
+                style="@style/main_textview"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/more" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/linerLayoutRow"
+            android:visibility="visible" >
+
+            <ImageView
+                style="@style/main_image"
+                android:id="@+id/orderc"
+                android:layout_gravity="center"
+                android:src="@drawable/orderc" />
+
+            <TextView
+                style="@style/main_textview"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/order2" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- end  row 3 -->
+
+    <LinearLayout
+        android:id="@+id/banner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+
+    <TwoLineListItem
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/banner"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="16dp"
+        android:background="#ddd" />
+
+    <View
+        android:id="@+id/viewcenter"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/menu_bg"
+    android:id="@+id/menubottom" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+           
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <View
+                android:id="@+id/viewduoi1"
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/viewduoi1"
+                android:layout_centerHorizontal="true"
+                android:background="@null"
+                android:drawableTop="@drawable/productpr"
+                android:text="@string/products"
+                android:textColor="#000000"
+                android:id="@+id/menu_product"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="0.5dp"
+            android:layout_weight="1"
+             >
+            <View
+                android:id="@+id/viewduoi1"
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/viewduoi1"
+                android:layout_alignParentLeft="true"
+                android:background="@null"
+                android:drawableTop="@drawable/newspr"
+                android:text="@string/news"
+                android:textColor="#000000"
+                android:textSize="10sp"
+                android:id="@+id/menu_news"
+                 />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+           
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="0.5dp"
+            android:layout_weight="1"
+            >
+            <View
+                android:id="@+id/viewduoi1"
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true" />
+
+            <Button
+                android:id="@+id/menu_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/viewduoi1"
+                android:layout_alignParentRight="true"
+                android:background="@null"
+                android:drawableTop="@drawable/searchpr"
+                android:text="@string/search"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+           >
+
+            <View
+                android:id="@+id/viewduoi1"
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/viewduoi1"
+                android:layout_centerHorizontal="true"
+                android:background="@null"
+                android:drawableTop="@drawable/morepr"
+                android:text="@string/more"
+                android:textColor="#000000"
+                android:id="@+id/menu_more"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:padding="5dp"
+        android:id="@+id/menu_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        
+        android:src="@drawable/homepr" />
+
+</RelativeLayout>
